@@ -7,7 +7,6 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/api/notifications")
-@CrossOrigin(origins = "*")
 public class NotificationController {
 
     private List<Notification> notifications = new ArrayList<>();
